@@ -8,6 +8,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { RouterModule, Routes } from '@angular/router';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { BooksEntryComponent } from './books-entry/books-entry.component';
+import { ViewBooksComponent } from './view-books/view-books.component';
 
 
 const myRoute:Routes=[
@@ -37,7 +38,8 @@ const myRoute:Routes=[
     UserEntryComponent,
     AdminLoginComponent,
     UserLoginComponent,
-    BooksEntryComponent
+    BooksEntryComponent,
+    ViewBooksComponent
   ],
   imports: [
     BrowserModule,
