@@ -11,6 +11,7 @@ import { BooksEntryComponent } from './books-entry/books-entry.component';
 import { ViewBooksComponent } from './view-books/view-books.component';
 import { BooksSearchComponent } from './books-search/books-search.component';
 import { DeleteBookComponent } from './delete-book/delete-book.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 const myRoute:Routes=[
@@ -41,6 +42,10 @@ const myRoute:Routes=[
   {
     path:"delete",
     component:DeleteBookComponent
+  },
+  {
+    path:"navbar",
+    component:NavbarComponent
   }
   
  
@@ -56,7 +61,8 @@ const myRoute:Routes=[
     BooksEntryComponent,
     ViewBooksComponent,
     BooksSearchComponent,
-    DeleteBookComponent
+    DeleteBookComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
