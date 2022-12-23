@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-entry.component.css']
 })
 export class UserEntryComponent {
-
+"name":"beema"
 }
